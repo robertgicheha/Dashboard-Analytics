@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+/* src/styles/App.css */
+.dashboard-container {
+  display: flex;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #f4f4f4;
+  padding: 1rem;
+}
+
+.dashboard-main {
+  flex: 1;
+  padding: 1rem;
+}
+
+.chart-container {
+  margin-bottom: 2rem;
+}
+
+.data-table {
+  margin-top: 2rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+}
